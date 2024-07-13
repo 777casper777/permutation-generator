@@ -7,11 +7,11 @@ from joblib import Parallel, delayed
 
 
 class PermutationGenerator:
-    def __init__(self, file_in, min_elem, max_elem, file_out='results.txt'):
-        self.file_in = file_in
+    def __init__(self, file_in, min_elem, max_elem, dir, file_out='results.txt'):
+        self.file_in = os.path.join(dir, file_in)
         self.min_elem = min_elem
         self.max_elem = max_elem
-        self.file_out = os.path.join('files', file_out)
+        self.file_out = os.path.join(dir, file_out)
         self.elements = self.read_elements_from_file()
 
     def read_elements_from_file(self):
@@ -71,8 +71,10 @@ if __name__ == "__main__":
                         help='The maximum number of elements to include in each permutation.')
     parser.add_argument('--file_out', type=str, default='results.txt',
                         help='The output file to save permutations (default: results.txt).')
+    parser.add_argument('--examples_dir', type=str, default='examples',
+                        help='The directory where input and output files are located (default: examples).')
 
     args = parser.parse_args()
 
-    generator = PermutationGenerator(args.file_in, args.min_elem, args.max_elem, args.file_out)
+    generator = PermutationGenerator(args.file_in, args.min_elem, args.max_elem, args.examples_dir, args.file_out)
     generator.run()
