@@ -1,3 +1,4 @@
+
 # Permutation Generator
 
 - This script generates permutations of elements from a file, which can be useful for creating password sets for brute-force attacks. 
@@ -5,8 +6,8 @@
   this script can help generate all possible combinations. 
   This can be particularly useful when working with tools like [Hashcat](https://hashcat.net/wiki/) using dictionary attack methods.
 
-- The code uses `tqdm` to display the progress of permutation generation.
-- It utilizes `joblib.Parallel` for parallel execution of permutation generation, which speeds up the process on multi-core systems.
+- The code uses tqdm to display the progress of permutation generation.
+- It utilizes joblib.Parallel for parallel execution of permutation generation, which speeds up the process on multi-core systems.
 
 ## Requirements
 
@@ -49,5 +50,14 @@ Generate permutations with elements from `example_2.txt`, using a minimum of 1 a
 ```bash
 python main.py --file_in example_2.txt --file_out result_example_2.txt --min_elem 1 --max_elem 3
 ```
+
+## Support This Project
+
+If you find this project useful, please consider supporting it:
+
+- [Sponsor on GitHub](https://github.com/sponsors/your_username)
+- [Support via Patreon](https://www.patreon.com/your_username)
+- [Buy Me a Coffee](https://www.buymeacoffee.com/your_username)
+- [Donate via PayPal](https://www.paypal.me/your_username)
 ```
 
