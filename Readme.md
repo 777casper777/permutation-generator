@@ -1,7 +1,7 @@
 # Permutation Generator
 
 - This script generates permutations of elements from a file, which can be useful for creating password sets for brute-force attacks. 
-  For instance, if you've forgotten your password but remember certain symbols like "7777777", "a", "b", "!", "c", "?", and "!!", 
+  For instance, if you've forgotten your password - 7777777a!b!c? but remember certain symbols like "7777777", "a", "b", "!", "c", "?", and "!!", 
   this script can help generate all possible combinations. 
   This can be particularly useful when working with tools like [Hashcat](https://hashcat.net/wiki/) using dictionary attack methods.
 
