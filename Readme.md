@@ -1,6 +1,3 @@
-Для форматирования `README.md` следует использовать Markdown. Вот как может выглядеть ваш `README.md` с использованием Markdown форматирования:
-
-```markdown
 # Permutation Generator
 
 - This script generates permutations of elements from a file, which can be useful for creating password sets for brute-force attacks. 
