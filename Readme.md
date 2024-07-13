@@ -35,15 +35,8 @@ python main.py --file_in elements.txt --min_elem 1 --max_elem 3
 - `--min_elem <min_elements>`: The minimum number of elements to include in each permutation (required).
 - `--max_elem <max_elements>`: The maximum number of elements to include in each permutation (required).
 - `--file_out <output_file>`: The output file to save permutations (default: results.txt).
-- `--examples_dir <examples_directory>`: The directory where input and output files are located (default: examples).
+- `--dir <directory>`: The directory where input and output files are located (default: examples).
 
-### Examples
-
-Generate permutations with elements from `elements.txt`, using a minimum of 1 and a maximum of 3 elements per permutation:
-
-```bash
-python main.py --file_in elements.txt --min_elem 1 --max_elem 3
-```
 
 ### Special Examples
 

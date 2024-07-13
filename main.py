@@ -71,10 +71,10 @@ if __name__ == "__main__":
                         help='The maximum number of elements to include in each permutation.')
     parser.add_argument('--file_out', type=str, default='results.txt',
                         help='The output file to save permutations (default: results.txt).')
-    parser.add_argument('--examples_dir', type=str, default='examples',
+    parser.add_argument('--dir', type=str, default='examples',
                         help='The directory where input and output files are located (default: examples).')
 
     args = parser.parse_args()
 
-    generator = PermutationGenerator(args.file_in, args.min_elem, args.max_elem, args.examples_dir, args.file_out)
+    generator = PermutationGenerator(args.file_in, args.min_elem, args.max_elem, args.dir, args.file_out)
     generator.run()
