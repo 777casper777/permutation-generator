@@ -55,9 +55,6 @@ python main.py --file_in example_2.txt --file_out result_example_2.txt --min_ele
 
 If you find this project useful, please consider supporting it:
 
-- [Sponsor on GitHub](https://github.com/sponsors/your_username)
-- [Support via Patreon](https://www.patreon.com/your_username)
-- [Buy Me a Coffee](https://www.buymeacoffee.com/your_username)
-- [Donate via PayPal](https://www.paypal.me/your_username)
+- [Buy Me a Coffee](https://buymeacoffee.com/777casper777)
 ```
 
