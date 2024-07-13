@@ -3,7 +3,11 @@
 ```markdown
 # Permutation Generator
 
-- This script generates permutations of elements from a file, which can be useful for creating password sets for brute-force attacks. For instance, if you've forgotten your password but remember certain symbols like "7777777", "a", "b", "!", "c", "?", and "!!", this script can help generate all possible combinations. This can be particularly useful when working with tools like [Hashcat](https://hashcat.net/wiki/) using dictionary attack methods.
+- This script generates permutations of elements from a file, which can be useful for creating password sets for brute-force attacks. 
+  For instance, if you've forgotten your password but remember certain symbols like "7777777", "a", "b", "!", "c", "?", and "!!", 
+  this script can help generate all possible combinations. 
+  This can be particularly useful when working with tools like [Hashcat](https://hashcat.net/wiki/) using dictionary attack methods.
+
 
 - The code uses tqdm to display the progress of permutation generation.
 - It utilizes joblib.Parallel for parallel execution of permutation generation, which speeds up the process on multi-core systems.
