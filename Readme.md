@@ -1,13 +1,12 @@
 # Permutation Generator
 
 - This script generates permutations of elements from a file, which can be useful for creating password sets for brute-force attacks. 
-  For instance, if you've forgotten your password - 7777777a!b!c? but remember certain symbols like "7777777", "a", "b", "!", "c", "?", and "!!", 
+  For instance, if you've forgotten your password (e.g., `7777777a!b!c?`) but remember certain symbols like "7777777", "a", "b", "!", "c", "?", and "!!", 
   this script can help generate all possible combinations. 
   This can be particularly useful when working with tools like [Hashcat](https://hashcat.net/wiki/) using dictionary attack methods.
 
-
-- The code uses tqdm to display the progress of permutation generation.
-- It utilizes joblib.Parallel for parallel execution of permutation generation, which speeds up the process on multi-core systems.
+- The code uses `tqdm` to display the progress of permutation generation.
+- It utilizes `joblib.Parallel` for parallel execution of permutation generation, which speeds up the process on multi-core systems.
 
 ## Requirements
 
@@ -37,13 +36,18 @@ python main.py --file_in elements.txt --min_elem 1 --max_elem 3
 - `--file_out <output_file>`: The output file to save permutations (default: results.txt).
 - `--dir <directory>`: The directory where input and output files are located (default: examples).
 
-
 ### Special Examples
+
+Generate permutations with elements from `example_1.txt`, using a minimum of 1 and a maximum of 7 elements per permutation, and save the results to `result_example_1.txt`:
 
 ```bash
 python main.py --file_in example_1.txt --file_out result_example_1.txt --min_elem 1 --max_elem 7
-python main.py --file_in example_2.txt --file_out result_example_2.txt --min_elem 1 --max_elem 3
 ```
 
+Generate permutations with elements from `example_2.txt`, using a minimum of 1 and a maximum of 3 elements per permutation, and save the results to `result_example_2.txt`:
+
+```bash
+python main.py --file_in example_2.txt --file_out result_example_2.txt --min_elem 1 --max_elem 3
+```
 ```
 
