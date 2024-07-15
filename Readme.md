@@ -52,12 +52,15 @@ python main.py --file_in example_2.txt --file_out result_example_2.txt --min_ele
 ```
 
 <div style="text-align: center; margin: 20px 0; padding: 20px; background-color: #f9f9f9; border: 2px solid #ccc; border-radius: 10px;">
-  <h2 style="color: #ffb400;">💰 Support This Project 💰</h2>
+  <h2 style="color: #ffb400;">👻 Support This Project 👻</h2>
   <p style="font-size: 18px;">If you find this project useful, please consider supporting it:</p>
   <a href="https://buymeacoffee.com/777casper777" target="_blank" style="display: inline-block; padding: 10px 20px; margin: 10px 0; font-size: 20px; color: white; background-color: #ffb400; text-decoration: none; border-radius: 5px;">☕ Buy Me a Coffee</a>
   <br>
-  <a href="https://www.paypal.com/ncp/payment/5CTH5JXASWEBJ" target="_blank" style="display: inline-block; padding: 10px 20px; margin: 10px 0; font-size: 20px; color: white; background-color: #0070ba; text-decoration: none; border-radius: 5px;">💸 Donate via PayPal</a>
+  <a href="https://www.paypal.com/ncp/payment/5CTH5JXASWEBJ" target="_blank" style="display: inline-block; padding: 10px 20px; margin: 10px 0; font-size: 20px; color: white; background-color: #0070ba; text-decoration: none; border-radius: 5px;">
+    <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="Donate via PayPal" style="width: 111px; height: 69px;">
+  </a>
 </div>
+
 
 
 
