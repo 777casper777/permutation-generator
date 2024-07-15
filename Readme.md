@@ -54,8 +54,9 @@ python main.py --file_in example_2.txt --file_out result_example_2.txt --min_ele
 ## Support This Project
 
 <div style="text-align: center; margin: 20px 0; padding: 20px; background-color: #f9f9f9; border: 2px solid #ccc; border-radius: 10px;">
-  <h2 style="color: #ff69b4;">💖 Support This Project 💖</h2>
+  <h2 style="color: #ffb400;">💰 Support This Project 💰</h2>
   <p style="font-size: 18px;">If you find this project useful, please consider supporting it:</p>
-  <a href="https://buymeacoffee.com/777casper777" target="_blank" style="display: inline-block; padding: 10px 20px; margin: 10px 0; font-size: 20px; color: white; background-color: #ff69b4; text-decoration: none; border-radius: 5px;">☕ Buy Me a Coffee</a>
+  <a href="https://buymeacoffee.com/777casper777" target="_blank" style="display: inline-block; padding: 10px 20px; margin: 10px 0; font-size: 20px; color: white; background-color: #ffb400; text-decoration: none; border-radius: 5px;">☕ Buy Me a Coffee</a>
 </div>
+
 
