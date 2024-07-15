@@ -56,10 +56,9 @@ python main.py --file_in example_2.txt --file_out result_example_2.txt --min_ele
   <a href="https://buymeacoffee.com/777casper777" target="_blank" style="display: inline-block; padding: 10px 20px; margin: 10px 0; font-size: 20px; color: white; background-color: #ffb400; text-decoration: none; border-radius: 5px;">☕ Buy Me a Coffee</a>
   <br>
   <a href="https://www.paypal.com/ncp/payment/5CTH5JXASWEBJ" target="_blank" style="display: inline-block; padding: 10px 20px; margin: 10px 0; font-size: 20px; color: white; background-color: #0070ba; text-decoration: none; border-radius: 5px;">
-    💵 Donate via PayPal
+    💰 Donate via PayPal
   </a>
 </div>
-
 
 
 
