@@ -6,6 +6,7 @@ This script helps you generate a list of possible passwords based on given eleme
 You can then use this list with Hashcat or other password recovery tools.  
 
 ### Features:  
+- Useful for dictionary-based brute-force attacks and custom dictionary generation.
 - Uses `tqdm` to display the progress of permutation generation.  
 - Generates permutations of elements from a file, which can be useful for creating password lists for brute-force attacks.  
 - If you remember only parts of your password (e.g., `7777777a!b!c?`) but recall specific symbols like `"7777777"`, `"a"`, `"b"`, `"!"`, `"c"`, `"?"`, and `"!!"`, this script can help generate all possible combinations.  
