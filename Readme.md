@@ -12,6 +12,10 @@ You can then use this list with Hashcat or other password recovery tools.
 - Particularly useful when working with tools like [Hashcat](https://hashcat.net/wiki/) for dictionary attacks.  
 
 
+### Legal Use Disclaimer:
+This script is intended for use in legitimate password recovery and testing scenarios. Do not use this script to attempt unauthorized access to accounts or systems.
+
+
 
 ## Requirements
 
