@@ -25,3 +25,12 @@
 12:11:52 - INFO - Script execution time: 0.01 seconds.
 12:11:52 - INFO - Success report: Total permutations: 156.
 12:11:52 - INFO - Script executed in 0.01 seconds.
+12:30:28 - INFO - ---------------------------------------------------------------------------------
+12:30:28 - INFO - Read 6 elements from file examples/example_1.txt.
+12:30:28 - INFO - Script started at: 12:30:28
+12:30:28 - INFO - Total permutations calculated: 1956
+12:30:28 - INFO - Total permutations: 1956
+12:30:28 - INFO - Permutation generation completed successfully. Results saved in examples/example_1_result.txt.
+12:30:28 - INFO - Script execution time: 0.01 seconds.
+12:30:28 - INFO - Success report: Total permutations: 1956.
+12:30:28 - INFO - Script executed in 0.01 seconds.
