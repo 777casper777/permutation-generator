@@ -1,0 +1,27 @@
+12:11:44 - INFO - ---------------------------------------------------------------------------------
+12:11:44 - INFO - Read 6 elements from file examples/example_1.txt.
+12:11:44 - INFO - Script started at: 12:11:44
+12:11:44 - INFO - Total permutations calculated: 1956
+12:11:44 - INFO - Total permutations: 1956
+12:11:44 - INFO - Permutation generation completed successfully. Results saved in examples/example_1_result.txt.
+12:11:44 - INFO - Script execution time: 0.01 seconds.
+12:11:44 - INFO - Success report: Total permutations: 1956.
+12:11:44 - INFO - Script executed in 0.01 seconds.
+12:11:51 - INFO - ---------------------------------------------------------------------------------
+12:11:51 - INFO - Read 6 elements from file examples/example_1.txt.
+12:11:51 - INFO - Script started at: 12:11:51
+12:11:51 - INFO - Total permutations calculated: 1236
+12:11:51 - INFO - Total permutations: 1236
+12:11:51 - INFO - Permutation generation completed successfully. Results saved in examples/result_example_1.txt.
+12:11:51 - INFO - Script execution time: 0.01 seconds.
+12:11:51 - INFO - Success report: Total permutations: 1236.
+12:11:51 - INFO - Script executed in 0.01 seconds.
+12:11:52 - INFO - ---------------------------------------------------------------------------------
+12:11:52 - INFO - Read 6 elements from file examples/example_2.txt.
+12:11:52 - INFO - Script started at: 12:11:52
+12:11:52 - INFO - Total permutations calculated: 156
+12:11:52 - INFO - Total permutations: 156
+12:11:52 - INFO - Permutation generation completed successfully. Results saved in examples/result_example_2.txt.
+12:11:52 - INFO - Script execution time: 0.01 seconds.
+12:11:52 - INFO - Success report: Total permutations: 156.
+12:11:52 - INFO - Script executed in 0.01 seconds.

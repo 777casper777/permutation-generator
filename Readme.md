@@ -33,7 +33,7 @@ pip install -r requirements.txt
 Run the script `main.py` with the following command format:
 
 ```bash
-python main.py --file_in example_1.txt --file_out example_1_result.txt --min_elem 1 --max_elem 9
+python main.py --file_in example_1.txt --file_out example_1_result.txt --min_elem 1 --max_elem 6
 ```
 
 ### Arguments
@@ -49,7 +49,7 @@ python main.py --file_in example_1.txt --file_out example_1_result.txt --min_ele
 Generate permutations with elements from `example_1.txt`, using a minimum of 1 and a maximum of 7 elements per permutation, and save the results to `result_example_1.txt`:
 
 ```bash
-python main.py --file_in example_1.txt --file_out result_example_1.txt --min_elem 1 --max_elem 7
+python main.py --file_in example_1.txt --file_out result_example_1.txt --min_elem 1 --max_elem 5
 ```
 
 Generate permutations with elements from `example_2.txt`, using a minimum of 1 and a maximum of 3 elements per permutation, and save the results to `result_example_2.txt`:
